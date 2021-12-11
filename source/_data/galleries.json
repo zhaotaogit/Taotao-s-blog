@@ -1,0 +1,45 @@
+[
+	{
+	  "name": "2021",
+	  "cover": "Album_Zips/6.jpg",
+	  "description": "我的图床",
+	  "photos": [
+	    "Album_Zips/1.jpg",
+	    "Album_Zips/2.jpg",
+	    "Album_Zips/3.jpg",
+	    "Album_Zips/4.jpg",
+		"Album_Zips/5.jpg",
+		"Album_Zips/6.jpg",
+		"Album_Zips/7.jpg",
+		"Album_Zips/8.jpg",
+		"Album_Zips/9.jpg",
+		"Album_Zips/10.jpg",
+		"Album_Zips/11.jpg",
+		"Album_Zips/12.jpg",
+		"Album_Zips/13.jpg",
+		"Album_Zips/14.jpg"
+	  ]
+	},
+    {
+      "name": "二次元",
+      "cover": "Album_Src/8.jpg",
+      "description": "我的图床",
+      "photos": [
+        "Album_Src/1.jpg",
+        "Album_Src/2.jpg",
+        "Album_Src/3.jpg",
+        "Album_Src/4.jpg",
+		"Album_Src/5.jpg",
+		"Album_Src/6.jpg",
+		"Album_Src/7.jpg",
+		"Album_Src/8.jpg",
+		"Album_Src/9.jpg",
+		"Album_Src/10.jpg",
+		"Album_Src/11.jpg",
+		"Album_Src/12.jpg",
+		"Album_Src/13.jpg",
+		"Album_Src/14.jpg"
+      ]
+    }
+
+]
