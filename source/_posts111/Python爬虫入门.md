@@ -6,7 +6,7 @@ toc: true
 mathjax: false
 date: 2021-11-18 16:39:45
 author: 
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/Spider_Black.jpg
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/Spider_Black.jpg
 coverImg: 
 password:
 summary: 
@@ -51,11 +51,11 @@ with open('baidu.html','w',encoding='utf-8') as f:
 
 ## 三、HTTP协议
 
-![image-20210606201117931](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210606201117931.png)
+![image-20210606201117931](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210606201117931.png)
 
-![image-20210606201427763](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210606201427763.png)
+![image-20210606201427763](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210606201427763.png)
 
-![image-20210606201628569](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210606201628569.png)
+![image-20210606201628569](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210606201628569.png)
 
 请求方式：
 
@@ -165,11 +165,11 @@ with open('baidu.html','w',encoding='utf-8') as f:
 
 ## 五、数据解析
 
-https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210607170818247.png
+https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210607170818247.png
 
 ### 1.re解析-正则表达式
 
-![image-20210607170936886](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210607170936886.png)
+![image-20210607170936886](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210607170936886.png)
 
 - 开源中国：https://www.oschina.net/
   - 工具：https://tool.oschina.net/
@@ -788,7 +788,7 @@ df.to_csv('猪八戒.csv',encoding='utf-8-sig')
 
 ## 六、requests进阶
 
-![image-20210611153420802](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210611153420802.png)
+![image-20210611153420802](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210611153420802.png)
 
 ### 1.模拟用户登录
 
@@ -870,7 +870,7 @@ print('over!')
 
 ## 七、给爬虫提速
 
-![image-20210613143403274](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210613143403274.png)
+![image-20210613143403274](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210613143403274.png)
 
 ### 1.多线程
 
@@ -1266,7 +1266,7 @@ if __name__ == '__main__':
 
 
 
-![image-20210618203952343](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210618203952343.png)
+![image-20210618203952343](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20210618203952343.png)
 
 - 爬取视频步骤
   1. 找到m3u8(各种手段)

@@ -6,8 +6,8 @@ toc: true
 mathjax: false
 date: 2021-12-10 20:53:32
 author: ZhTap
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/python-heroku-github.jpg
-coverImg: https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/python-heroku-github.jpg
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/python-heroku-github.jpg
+coverImg: https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/python-heroku-github.jpg
 password:
 summary:
 tags:
@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
 ## 2.Heroku部署
 
-![image-20211121190224009](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190224009.png)
+![image-20211121190224009](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190224009.png)
 
-![image-20211121190249742](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190249742.png)
+![image-20211121190249742](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211121190249742.png)
 

@@ -27,13 +27,15 @@ categories:
 
 ![3f878fc75ad84405bffa29a309238655.jpg](http://tva1.sinaimg.cn/large/007gOsxTgy1gvvfvtklcsj32yo1o0e2l.jpg)
 
+[IMG]http://tva1.sinaimg.cn/large/007gOsxTgy1gvvfualuzgj32yo1o0e2l.jpg[/IMG]
+
 ```cpp
 conda env list
 ```
 
 罗列结果如下所示:
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Album_Src/Conda_list.jpg"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Album_Src/Conda_list.jpg"/>
 
 左边是虚拟环境的名称，右边是其所在路径，带星号的表示是默认环境。
 

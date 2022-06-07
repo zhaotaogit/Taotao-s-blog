@@ -6,8 +6,8 @@ toc: true
 mathjax: false
 date: 2021-04-29 22:28:42
 author:
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E5%B0%81%E9%9D%A2/Git.jpg
-coverImg: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E5%B0%81%E9%9D%A2/Git.jpg
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E5%B0%81%E9%9D%A2/Git.jpg
+coverImg: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E5%B0%81%E9%9D%A2/Git.jpg
 password:
 summary: Git学习
 tags:
@@ -41,7 +41,7 @@ categories: Git
   - 通过执行git init命令在本地初始化一个本地仓库，会在文件夹中生成一个.git的隐藏文件
 - 通过git status命令查看暂存区情况
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620140151.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620140151.png"/>
 
 - 创建完文件查看再暂存区，会提示你用git add将文件添加到暂存区
 
@@ -53,7 +53,7 @@ categories: Git
 
   - git commit -m “描述”,简单描述这次调教的语句。
 
-  <img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/git%E6%8E%A8%E9%80%81%E5%92%8C%E4%B8%8A%E4%BC%A0.png"/>
+  <img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/git%E6%8E%A8%E9%80%81%E5%92%8C%E4%B8%8A%E4%BC%A0.png"/>
 
 
 
@@ -82,7 +82,7 @@ categories: Git
   git push origin main
   ```
 
-<img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/%E6%95%88%E6%9E%9C.png"/>
+<img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/%E6%95%88%E6%9E%9C.png"/>
 
 ## 4.克隆远程仓库
 
@@ -130,19 +130,19 @@ git push origin --delete master
 
 1. 进入要删除的仓库：
 
-   <img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620135848.png"/>
+   <img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620135848.png"/>
 
 2. 点击Settings：
 
-   <img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620135914.png"/>
+   <img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620135914.png"/>
 
 3. 拉倒页面最下面：
 
-   <img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620135937.png"/>
+   <img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620135937.png"/>
 
 4. 按照提示输入：
 
-   <img src="https://gcore.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620140006.png"/>
+   <img src="https://cdn.jsdelivr.net/gh/zhaotaogit/images/Git%E7%AE%A1%E7%90%86/20210620140006.png"/>
 
 即可删除！
 

@@ -6,15 +6,15 @@ toc: true
 mathjax: false
 date: 2021-12-10 20:56:26
 author: ZhTao
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211210205722145.png
-coverImg: https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211210205722145.png
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211210205722145.png
+coverImg: https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211210205722145.png
 password:
 summary:
 tags:
 categories:
 ---
 
-![image-20211210205722145](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211210205722145.png)
+![image-20211210205722145](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211210205722145.png)
 
 # Python-Scrapy
 
@@ -28,7 +28,7 @@ pip install scrapy
 
 再控制台输入Scrapy，出现如下效果即为安装正确：
 
-![image-20211123152712806](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123152712806.png)
+![image-20211123152712806](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123152712806.png)
 
 ## 2.创建一个工程
 
@@ -38,7 +38,7 @@ scrapy startproject 工程名
 
 目录结构：
 
-![image-20211123153042880](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123153042880.png)
+![image-20211123153042880](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123153042880.png)
 
 ```
 scrapy.cfg     # Scrapy 部署时的配置文件
@@ -70,11 +70,11 @@ Created spider 'first' using template 'basic' in module:
   FirstBoold.spiders.first
 ```
 
-![image-20211123153509605](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123153509605.png)
+![image-20211123153509605](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123153509605.png)
 
 这样就创建了一个爬虫文件
 
-![image-20211123153556662](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123153556662.png)
+![image-20211123153556662](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123153556662.png)
 
 ## 4.执行工程
 
@@ -122,11 +122,11 @@ class FirstSpider(scrapy.Spider):
 
 在控制台中执行：**`scrapy crawl first`**
 
-![image-20211123155033506](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123155033506.png)
+![image-20211123155033506](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123155033506.png)
 
 发现输出了一大堆东西，但是没有我们打印的response结果，仔细观察输出结果，发现下图输出了` 'ROBOTSTXT_OBEY': True`,这代表爬虫将遵守Robot协议，我们配置为Flase不遵守此协议即可。
 
-![image-20211123155247327](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123155247327.png)
+![image-20211123155247327](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123155247327.png)
 
 这就是导致没有输出结果的原因。
 
@@ -134,13 +134,13 @@ class FirstSpider(scrapy.Spider):
 
 打开工程项目下的settings.py文件
 
-![image-20211123155502652](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123155502652.png)
+![image-20211123155502652](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123155502652.png)
 
 将`ROBOTSTXT_OBEY = True`修改为`ROBOTSTXT_OBEY = False`即可。
 
 再次执行：
 
-![image-20211123160225203](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123160225203.png)
+![image-20211123160225203](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123160225203.png)
 
 这次运行我们加了`--nolog`参数，屏蔽了程序执行的日志，这样控制台只会输出我们想要的内容，但是不推荐使用`--nolog`，因为程序有问题，不会报错，导致无法排错。
 
@@ -200,7 +200,7 @@ LOG_LEVEL = "ERROR"
 
 运行工程：`scrapy crawl qiubai`：
 
-![image-20211123175333718](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123175333718.png)
+![image-20211123175333718](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123175333718.png)
 
 发现段子内容打印的是一个Selector对象，而作者名并没有被Selector包裹，说明extract()是提取Selector中的data内容。
 
@@ -241,17 +241,17 @@ class QiubaiSpider(scrapy.Spider):
 
 终端执行：`scrapy crawl qiubai -o data.json`:
 
-![image-20211123185601067](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123185601067.png)
+![image-20211123185601067](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123185601067.png)
 
 查看当前目录，已经生成了data.json文件:
 
-![image-20211123185641646](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123185641646.png)
+![image-20211123185641646](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123185641646.png)
 
 假如我们要保存成txt行不行呢？
 
 试一下：
 
-![image-20211123185723863](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123185723863.png)
+![image-20211123185723863](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123185723863.png)
 
 发现报错了，提示只支持`json`, `jsonlines`, `jl`, `csv`, `xml`, `marshal`, `pickle`这几种文件。
 
@@ -426,11 +426,11 @@ ITEM_PIPELINES = {
 }
 ```
 
-![image-20211123234530728](https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123234530728.png)
+![image-20211123234530728](https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/image-20211123234530728.png)
 
 查看mysql数据库中是否已有存取数据：
 
-![image-20211130222547726](https://gcore.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211130222547726.png)
+![image-20211130222547726](https://cdn.jsdelivr.net/gh/zhaotaogit/images/note_img/image-20211130222547726.png)
 
 这里我运行了多次，所以qiubai表存在98条数据，总之，证明了程序成功爬取数据并存到了mysql中。
 

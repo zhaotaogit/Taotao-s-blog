@@ -6,7 +6,7 @@ toc: true
 mathjax: false
 date: 2021-11-18 17:49:49
 author:
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/Error.jpg
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/Error.jpg
 coverImg:
 password:
 summary: Python报错

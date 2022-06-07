@@ -6,7 +6,7 @@ toc: true
 mathjax: false
 date: 2021-11-18 16:55:25
 author:
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/Python-OOP.jpg
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/Python-OOP.jpg
 coverImg:
 password:
 summary: Python-OOP

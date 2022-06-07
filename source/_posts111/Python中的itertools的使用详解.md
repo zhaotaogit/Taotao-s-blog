@@ -6,8 +6,8 @@ toc: true
 mathjax: false
 date: 2021-05-03 22:22:25
 author:
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Python%E5%B0%81%E9%9D%A2/Python.jpg
-coverImg: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Python%E5%B0%81%E9%9D%A2/Python.jpg
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Python%E5%B0%81%E9%9D%A2/Python.jpg
+coverImg: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Python%E5%B0%81%E9%9D%A2/Python.jpg
 password: 
 summary: Python学习
 tags:

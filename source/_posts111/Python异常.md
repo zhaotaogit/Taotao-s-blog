@@ -6,7 +6,7 @@ toc: true
 mathjax: false
 date: 2021-11-18 16:32:24
 author:
-img: https://gcore.jsdelivr.net/gh/zhaotaogit/images/Blog_img/20211118163844.png
+img: https://cdn.jsdelivr.net/gh/zhaotaogit/images/Blog_img/20211118163844.png
 coverImg:
 password:
 summary: Python异常
